@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "completein-him";
+    src: url(../fonts/completein-him.ttf);
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+body{
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.article {
+  text-transform: uppercase;
+}
+.white-border {
+  border: 8px solid #fff;
+}
+
+ul.article-chorus {
+  list-style: none;
+  padding-left: 3.5em;
+}
+
+ul.article-chorus > li {
+  padding-left: 2.5em;
+  text-indent: -4.1em;
+}
+
+ul.article-chorus > li::before {
+	content: "Chorus: ";
+}
+
+.article-header:before {
+	content: ' ';
+	width: 80%;
+	height: 50%;
+	background-color: green;
+	position: absolute;
+	left: 15%;
+	top: 34%;
+	outline: 2px solid green;
+	border: 1px solid white;
+}
+
+.article-header-content {
+	position: relative;
+	color: #fff;
+	font-weight: 900;
+	font-size: 23px;
+	top: 10px;
+	text-shadow: 0 0 5px #fff;
+}
+
+.f-px10 {
+	font-size: 10px;
+}
+
+.sound-notes > img {
+	position: relative;
+	bottom: 12px;
+}
+
+.article-content {
+	color: #595959;
+}
+
+.font-myraid {
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.font-completein {
+	font-family: "completein-him", Helvetica, Arial, sans-serif;
+}
+
+footer {
+	padding: 10px;
+
+	background-image: linear-gradient(0deg, #9d9d9d 0%, #dbdbdb 100%);
+	color: #fff;
+	font-size: 12px;
+}
+
+.nav-item {
+  flex-basis: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+	background-image: linear-gradient(0deg, #8a8a8a 0%, #d4d4d4 100%);
+  border: 1px solid #fff;
+	text-shadow: 0 0 5px #fff;
+	font-size: 14px;
+}
+
+.nav-item.active {
+	background-image: none;
+	background-image: linear-gradient(0deg, #5dc945 0%, #19a715 100%);
+	border: 1px solid #fff;
+	outline: 2px solid #51c33d;
+	z-index: 1;
+}
+
+ul.web-actions {
+	list-style: none;
+	position: relative;
+	background-image: linear-gradient(0deg, #a0d025 0%, #49a10f 100%);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	right: 3em;
+	color: #fff;
+	text-shadow: 0 0 5px #fff;
+	font-size: 14px;
+}
+
+ul.web-actions > li {
+	float: left;
+	padding: 2px 8px;
+}
+
+.custom-carousel-caption{
+	top: 15%;
+	right: 15%;
+	left: unset;
+	bottom: unset;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-item:focus, .navbar-light .navbar-nav .nav-item:hover {
+	opacity: 0.7;
+	background-image: linear-gradient(0deg, #5dc945 0%, #19a715 100%);
+	border: 1px solid #fff;
+	outline: 2px solid #51c33d;
+}
+
+#map {
+  height: 100%;
+  min-height: 400px;
+}
+
+.f-rem4 {
+	font-size: 4rem;
+}
+.f-rem3 {
+	font-size: 3rem;
+}
+.f-rem2 {
+	font-size: 2rem;
+}
+
+.sing-along-span {
+	font-size: 18px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #7b7b7b;
+}
